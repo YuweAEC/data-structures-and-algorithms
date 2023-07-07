@@ -21,6 +21,7 @@ It is also sometimes referred to as **PSDS - Problem Solving Data Structures**.
 
 **Non Linear data and structures** is a form of data structure where the data elements don't stay arranged linearly or sequentially. Since the data structure is non-linear, it does not involve a single level. Therefore, a user can't traverse all of its elements in a single run.
 
+**Sorting** is the arrangement of data in a preferred order in the data structure. By sorting data, it is easier to search through it quickly and easily.
 
 ## Authors
 
