@@ -2,6 +2,7 @@
 
 #include<stdio.h>
 #include<conio.h>
+#include<stdlib.h>
 //#include<alloc.h>
 
 struct link      /*Declaration of structure that defines list entries */
