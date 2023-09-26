@@ -15,6 +15,12 @@ struct link      /*Declaration of structure that defines list entries */
  * node --> pointer to structure type variable
 */
 
+/*  
+    main function contains about 
+    3 for loops(1st loop for creating nodes, 2nd loop for printing nodes, 3rd loop for counting nodes) 
+    and 1 if condition(for checking whether the list is empty or not) 
+*/
+
 void main()
 {
     int i, count=0;
