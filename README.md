@@ -1,33 +1,26 @@
 # Data Structures and Algorithms
- 
- - Title
- - Introduction
- - Authors
- - Acknowledgements
-
 
 ## Title
-
-Linear , non linear data structure problems sets
+**Problem Solving with Data Structures**
 
 ## Introduction
+**DSA (Data Structures and Algorithms)**, also known as **PSDS (Problem Solving Data Structures)**, is essential for writing efficient code. It involves organizing and managing data to solve complex problems effectively. This repository focuses on both linear and non-linear data structures to enhance problem-solving skills.
 
-**DSA stands for Data Structures and Algorithms**.
-It is also sometimes referred to as **PSDS - Problem Solving Data Structures**. 
+### Linear Data Structures
+Linear data structures store elements sequentially, facilitating easy traversal. Examples include:
+- **Arrays**: Elements stored in contiguous memory locations.
+- **Linked Lists**: Nodes containing elements and references to the next node.
 
-*DSA* is applied in *problem-solving* and enables developers to learn to write *efficient code*. The quality of the code can be judged by how much *memory* and *time it consumes*.
+### Non-Linear Data Structures
+Non-linear data structures offer more complex arrangements, making traversal more challenging. These structures include trees, graphs, and hash tables.
 
-**Linear data structures** are data structures in which data elements are stored in a linear sequence. They include: Arrays: A collection of elements stored in contiguous memory locations. Linked Lists: A collection of nodes, each containing an element and a reference to the next node.
-
-**Non Linear data and structures** is a form of data structure where the data elements don't stay arranged linearly or sequentially. Since the data structure is non-linear, it does not involve a single level. Therefore, a user can't traverse all of its elements in a single run.
-
-**Sorting** is the arrangement of data in a preferred order in the data structure. By sorting data, it is easier to search through it quickly and easily.
+**Sorting** is crucial for arranging data in preferred orders, facilitating efficient searching and retrieval.
 
 ## Authors
-
- - **Yuvraj Singh**
- - **Gaurav Singh**
+- **Yuvraj Singh**
+- **Gaurav Singh**
 
 ## Acknowledgements
- 
- - **Gaurav Singh**
+- **Gaurav Singh**
+
+This README provides a comprehensive overview of data structures, emphasizing the importance of problem-solving skills and efficient coding practices.
