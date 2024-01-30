@@ -1,29 +1,60 @@
-# Sorting Algorithms in C
-
-## Title
-**Sorting Algorithms Implementation in C**
+# Sorting Algorithms in C - How to Run
 
 ## Introduction
-This repository focuses on implementing various sorting algorithms in C programming language. Sorting algorithms play a crucial role in organizing data efficiently, making it easier to search and retrieve information. By understanding and implementing these algorithms, developers can enhance their problem-solving skills and write more efficient code.
+Welcome to the Sorting Algorithms Implementation in C repository! This repository focuses on implementing various sorting algorithms in the C programming language. Sorting algorithms are crucial for organizing data efficiently, making it easier to search and retrieve information. By understanding and implementing these algorithms, developers can enhance their problem-solving skills and write more efficient code.
 
 ### Available Sorting Algorithms
-- **Bubble Sort**: A simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
-- **Selection Sort**: An in-place comparison sorting algorithm that divides the input list into two parts: a sorted sublist and an unsorted sublist.
-- **Insertion Sort**: A simple sorting algorithm that builds the final sorted array one item at a time.
-- **Merge Sort**: A divide and conquer algorithm that divides the input array into two halves, sorts each half, and then merges them.
-- **Quick Sort**: Another divide and conquer algorithm that selects a pivot element and partitions the array around the pivot.
-- **Heap Sort**: A comparison-based sorting algorithm that uses a binary heap data structure to build a heap and then sorts it.
+Here are the sorting algorithms available in this repository:
+- **Bubble Sort**
+- **Selection Sort**
+- **Insertion Sort**
+- **Merge Sort**
+- **Quick Sort**
+- **Heap Sort**
 
-## Contents
-- [Bubble Sort in C](./1-bubble_sort.c)
-- [Selection Sort in C](./2-selection_sort.c)
-- [Insertion Sort in C](./3-insertion_sort.c)
-- [Merge Sort in C](./4-merge_sort.c)
-- [Quick Sort in C](./5-quick_sort.c)
-- [Heap Sort in C](./6-heap_sort.c)
+## Prerequisites
+Before running the sorting algorithms, ensure that you have the following installed on your system:
+- C compiler (e.g., GCC for Windows)
+- Command-line interface (e.g., Command Prompt or PowerShell)
+- Visual Studio Code or any other code editor
 
 ## Usage
-Each sorting algorithm is implemented in a separate C file. To use a specific sorting algorithm, compile the corresponding C file using a C compiler such as GCC, and execute the generated executable.
+### Running from Command Line
+Follow these steps to run the sorting algorithms using the command line:
+
+1. **Clone the Repository:** Clone this repository to your local machine using the following command:
+   ```
+   git clone https://github.com/YOUR_USERNAME/Sorting-Algorithms-in-C.git
+   ```
+
+2. **Navigate to Algorithm Directory:** Change your current directory to the directory of the sorting algorithm you want to run. For example, to run Bubble Sort, navigate to the `1-bubble_sort` directory:
+   ```
+   cd Sorting-Algorithms-in-C/1-bubble_sort
+   ```
+
+3. **Compile the Code:** Compile the C file using your C compiler. For GCC, you can use the following command:
+   ```
+   gcc -o bubble_sort bubble_sort.c
+   ```
+
+4. **Run the Executable:** Once the compilation is successful, run the generated executable file. For Bubble Sort, execute the following command:
+   ```
+   bubble_sort.exe
+   ```
+
+5. **Repeat for Other Algorithms:** Repeat steps 2-4 for other sorting algorithms by navigating to their respective directories (e.g., `2-selection_sort`, `3-insertion_sort`, etc.) and compiling their C files.
+
+### Running from Visual Studio Code
+Alternatively, you can use Visual Studio Code to compile and run the sorting algorithms. Here's how:
+
+1. **Open the Repository:** Open the Sorting-Algorithms-in-C repository in Visual Studio Code.
+
+2. **Install Extensions:** If you haven't already, install the following extensions for Visual Studio Code:
+   - C/C++ extension for Visual Studio Code (ms-vscode.cpptools)
+
+3. **Navigate to Algorithm File:** Open the C file of the sorting algorithm you want to run.
+
+4. **Compile and Run:** Use the built-in terminal in Visual Studio Code to compile and run the code. Use commands like `gcc -o bubble_sort bubble_sort.c` to compile and `./bubble_sort` to run the executable.
 
 ## Contributors
 - **Yuvraj Singh**
@@ -32,5 +63,4 @@ Each sorting algorithm is implemented in a separate C file. To use a specific so
 ## Acknowledgements
 - **Gaurav Singh**
 
-This repository provides a collection of sorting algorithms implemented in C, along with explanations of their working principles. It serves as a valuable resource for learning and understanding sorting techniques in computer science.
-
+This repository provides a collection of sorting algorithms implemented in C, along with instructions on how to run them on a Windows system. It serves as a valuable resource for learning and understanding sorting techniques in computer science.
