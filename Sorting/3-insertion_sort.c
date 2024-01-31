@@ -21,3 +21,17 @@ void insertion_sort(int *a, int N)
         a[j + 1] = temp;
     }
 }
+
+void main()
+{
+    int arr[] = {5, 2, 8, 4, 1};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    
+    insertion_sort(arr, n);
+
+    printf("Sorted array: \n");
+    for (int i = 0; i < n; i++)
+    {
+        printf("%d ", arr[i]);
+    }
+}
