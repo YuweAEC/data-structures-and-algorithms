@@ -22,11 +22,19 @@ void insertion_sort(int *a, int N)  // N is the size of the array
     }
 }
 
-void main()
+int main()
 {
-    int arr[] = {5, 2, 8, 4, 1};
-    int n = sizeof(arr) / sizeof(arr[0]); // n is the size of the array arr (n = 5) 
-    
+    int n;
+    printf("Enter the number of elements: ");
+    scanf("%d", &n); // take user input for the number of elements
+
+    int arr[n];
+    printf("Enter the elements: ");
+    for (int i = 0; i < n; i++)
+    {
+        scanf("%d", &arr[i]); // take user input for the elements
+    }
+
     insertion_sort(arr, n); // call the function insertion_sort
 
     printf("Sorted array: \n"); // print the sorted array
@@ -34,4 +42,7 @@ void main()
     {
         printf("%d ", arr[i]); // print the element at index i
     }
+
+    return 0;
 }
+
