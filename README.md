@@ -17,10 +17,12 @@ Non-linear data structures offer more complex arrangements, making traversal mor
 **Sorting** is crucial for arranging data in preferred orders, facilitating efficient searching and retrieval.
 
 ## Authors
+
 - **Yuvraj Singh**
 - **Gaurav Singh**
 
 ## Acknowledgements
+
 - **Gaurav Singh**
 
 This README provides a comprehensive overview of data structures, emphasizing the importance of problem-solving skills and efficient coding practices.
