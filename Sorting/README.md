@@ -44,7 +44,7 @@ Follow these steps to run the sorting algorithms using the command line:
 
 5. **Repeat for Other Algorithms:** Repeat steps 2-4 for other sorting algorithms by navigating to their respective directories (e.g., `2-selection_sort`, `3-insertion_sort`, etc.) and compiling their C files.
 
-### Running from Visual Studio Code
+### Running from Visual Studio Code (Windows)
 Alternatively, you can use Visual Studio Code to compile and run the sorting algorithms. Here's how:
 
 1. **Open the Repository:** Open the Sorting-Algorithms-in-C repository in Visual Studio Code.
