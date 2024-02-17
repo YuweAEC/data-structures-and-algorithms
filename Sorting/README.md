@@ -64,3 +64,4 @@ Alternatively, you can use Visual Studio Code to compile and run the sorting alg
 - **Gaurav Singh**
 
 This repository provides a collection of sorting algorithms implemented in C, along with instructions on how to run them on a Windows system. It serves as a valuable resource for learning and understanding sorting techniques in computer science.
+
